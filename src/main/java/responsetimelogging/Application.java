@@ -22,6 +22,4 @@ public class Application {
         return "hello world";
     }
 
-
-    git commit
 }

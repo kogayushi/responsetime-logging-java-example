@@ -22,12 +22,6 @@ public class Application {
         return "hello world";
     }
 
-    @Bean
-    FilterRegistrationBean<OncePerRequestFilter> loggingFilter() {
-        FilterRegistrationBean<OncePerRequestFilter> filterBean = new FilterRegistrationBean<>();
-        filterBean.setFilter(new RequestLoggingFilter());
-        filterBean.addUrlPatterns("/*");
-        filterBean.setOrder(Ordered.HIGHEST_PRECEDENCE);
-        return filterBean;
-    }
+
+    git commit
 }
